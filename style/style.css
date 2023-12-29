@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 20px;
+}
+table{
+    width: 100vw;
+    text-align: center;
+    /* border: 1px solid #fff; */
+    /* background-color: aqua; */
+}
+th{
+    background-color: #000;
+    color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #dc837f;
+}
+tr:nth-child(even){
+        background-color: #a3bb8b;
+}
+td,th{
+    padding: 20px;
+}
